@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        'rotate': 'rotate',
+      },
       colors: {
         green: {
           50: '#30AF5B',

@@ -17,7 +17,7 @@ const Footer = () => {
         </nav> 
         <div className="flex justify-center items-center pt-7">
           <p className='text-white'>
-          We invite you to let us be your Lembranca-your souvenir of tranquility, warmth and unforgettable experiences.
+          We invite you to let us be your Lembrança-your souvenir of tranquility, warmth and unforgettable experiences.
           </p>
         </div>      
 

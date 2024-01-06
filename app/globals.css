@@ -14,6 +14,32 @@ body {
   font-family: Inter;
 }
 
+.quote::before {
+  content: "“";
+  font-size: 2em;
+  position: relative;
+  top: -0.2em;
+}
+
+.quote::after {
+  content: "”";
+  font-size: 2em;
+  position: relative;
+  bottom: 0.2em;
+}
+
+.rotate {
+  transition: transform 0.3s;
+}
+.button:hover .rotate {
+  transform: rotate(180deg);
+}
+
+
+.large-text {
+  font-size: 1.5em; /* Adjust as needed */
+}
+
 @layer utilities {
   .btn_white { 
     @apply  border-white bg-white px-8 py-3 text-green-50
