@@ -7,11 +7,9 @@ const Welcome = () => {
         Welcome to Lembrança
       </p>
 
-      <div className="flex flex-row items-center justify-center mt-3">
+      <div className="flex justify-center mt-3">
         <img src="/location_pin.svg" alt="location pin" className="w-4 h-4"/>
-
         <p className='ml-2'>North Goa</p>
-
       </div> 
 
     </div>

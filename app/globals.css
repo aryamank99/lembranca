@@ -14,6 +14,10 @@ body {
   font-family: Inter;
 }
 
+.dropdown-menu {
+  z-index: 1000;
+}
+
 .quote::before {
   content: "“";
   font-size: 2em;
@@ -27,14 +31,6 @@ body {
   position: relative;
   bottom: 0.2em;
 }
-
-.rotate {
-  transition: transform 0.3s;
-}
-.button:hover .rotate {
-  transform: rotate(180deg);
-}
-
 
 .large-text {
   font-size: 1.5em; /* Adjust as needed */
