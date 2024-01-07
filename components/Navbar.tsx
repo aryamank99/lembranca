@@ -1,7 +1,5 @@
 "use client";
 
-
-
 const Navbar = () => {
   
   return (
@@ -20,7 +18,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">
           <li>
             <details className="dropdown-menu">
-              <summary>
+              <summary className="text-med">
                 Contact Us
               </summary>
               <ul className="p-2 bg-base-100 rounded-t-none">

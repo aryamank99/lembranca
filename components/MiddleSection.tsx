@@ -6,7 +6,7 @@ const MiddleSection = () => {
 
       <div className='mx-auto w-3/4'>
         <p className='text-center quote mt-14 text-2xl'>
-          Lembrança, a hometel with the comfort of a hotel and the warmth of a home.
+          Lembrança, a hometel with the comfort of a hotel and warmth of a home.
         </p>
       </div>
 
@@ -36,15 +36,15 @@ const MiddleSection = () => {
 
       <div className="mx-auto w-3/4 mt-14">
         <p className="text-center">
-          In the tranquil ambiance of your relaxing holiday, everyday becomes a cherished memory. The gentle rustle of leaves and the warmth of the sun create an atmosphere where every moment feels like a precious Lembrança, a keepstake of serenity and joy.
+          In the tranquil ambience of your relaxing holiday, everyday becomes a cherished memory. The gentle rustle of leaves and the warmth of the sun create an atmosphere where every moment feels like a precious Lembrança, a keepstake of serenity and joy.
         </p>
 
         <p className="text-center mt-10">
-          Amidst the backdrop of your relaxing holiday. the Lembranças you collect aren’t just objects; they are fragments of the peace you found. Each trinket, each sea shell, carries the essence of your rejuvenating escape, reminding you of the calm and contentment that defined your days away.
+          Amidst the backdrop of your holiday, the Lembranças you collect aren’t just objects; they are fragments of the peace you find. Each trinket, each sea shell, carries the essence of your rejuvenating escape, reminding you of the calm and contentment that defined your days away.
         </p>
 
         <p className="text-center mt-10">
-          As you pack your bags to leave the sanctuary of your relaxing holiday, you take back with you your Lembranças which encapsulate the leisure strolls, the laughter with loved ones and the moments of blissful solitude. They serve as reminders, tangible echoes of the tranquility you experienced, urging you to return for more.        
+          As you leave the sanctuary of your holiday, you take back your Lembranças which encapsulate the leisure strolls, laughter with loved ones and moments of blissful solitude. They serve as reminders, tangible echoes of the tranquility you experienced, urging you to return for more.        
         </p>
 
       </div>
@@ -56,7 +56,7 @@ const MiddleSection = () => {
         </p>
         
         <p className="text-center mt-10">
-          Nestled amidst the embrace of nature and wrapped in the warmth of hospitality, our homestay is more than just a place to stay-it’s an invitation to indulge in the extraordinary. Our homestay is carefully crafted to transcend the ordinary, offering you an escape into a world where moments turn into memories and experiences redefine what you know.   
+          Nestled amidst the embrace of nature and wrapped in the warmth of hospitality, our hometel is more than just a place to stay-it’s an invitation to indulge in the extraordinary. Our homestay is carefully crafted to transcend the ordinary, offering a world where moments turn into memories and experiences redefine what you know.   
         </p>
 
       </div>
