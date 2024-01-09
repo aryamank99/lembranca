@@ -15,10 +15,11 @@ const MiddleSection = () => {
         <p className="mt-4 text-center">
           Welcome to Lembrança- where every stay is a chapter in the book of memories and every guest is a cherished friend. Nestled amidst serene greenery and landscapes and offering un paralleled hospitality, we invite you to let us be your Lembrança-your souvenir of tranquility, warmth and unforgettable experiences.
         </p>
-        
-        <div className="flex justify-between px-6 mt-14">
-          <img className="w-60 h-85" src="/row_1_first.jpg" alt="Image 1" />
-          <img className="w-60 h-85" src="/row_1_second.jpg" alt="Image 2" />
+    
+        {/* first row of images */}
+        <div className="flex flex-col sm:flex-row justify-between px-6 mt-14">
+          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_1_first.jpg" alt="Image 1" />
+          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_1_second.jpg" alt="Image 2" />
           <img className="w-60 h-85 object-cover" src="/row_1_third.jpg" alt="Image 3" />
         </div>
 
@@ -26,10 +27,11 @@ const MiddleSection = () => {
           Imagine. Experience. Reminisce.
         </p>
 
-        <div className="flex justify-between mt-14 px-6">
-          <img className="w-60 h-85" src="/row_2_first.jpg" alt="Image 1" />
-          <img className="w-60 h-85" src="/row_2_second.jpg" alt="Image 2" />
-          <img className="w-60 h-85" src="/row_2_third.jpg" alt="Image 3" />
+        {/* second row of images */}
+        <div className="flex flex-col sm:flex-row justify-between px-6 mt-14">
+          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_2_first.jpg" alt="Image 1" />
+          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_2_second.jpg" alt="Image 2" />
+          <img className="w-60 h-85 object-cover" src="/row_2_third.jpg" alt="Image 3" />
         </div>
 
       </div>

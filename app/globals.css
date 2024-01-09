@@ -19,17 +19,24 @@ body {
 }
 
 .quote::before {
-  content: "“";
+  content: open-quote;
   font-size: 2em;
   position: relative;
   top: -0.2em;
 }
 
 .quote::after {
-  content: "”";
+  content: close-quote;
   font-size: 2em;
   position: relative;
   bottom: 0.2em;
+}
+
+@media screen and (max-width: 640px) {
+  .quote::before,
+  .quote::after {
+    font-size: 1em;
+  }
 }
 
 .large-text {

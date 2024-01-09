@@ -1,7 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/whitelil/public_html/lembrancastays.com
-    - /bin/npm install --prefix $DEPLOYPATH
-    - /bin/npm run build --prefix $DEPLOYPATH
-    - /bin/cp -R $BASEDIR/.next $DEPLOYPATH
