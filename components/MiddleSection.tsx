@@ -17,7 +17,7 @@ const MiddleSection = () => {
         </p>
     
         {/* first row of images */}
-        <div className="flex flex-col sm:flex-row justify-between px-6 mt-14">
+        <div className="items-center flex flex-col sm:flex-row justify-between px-6 mt-14">
           <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_1_first.jpg" alt="Image 1" />
           <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_1_second.jpg" alt="Image 2" />
           <img className="w-60 h-85 object-cover" src="/row_1_third.jpg" alt="Image 3" />
@@ -28,7 +28,7 @@ const MiddleSection = () => {
         </p>
 
         {/* second row of images */}
-        <div className="flex flex-col sm:flex-row justify-between px-6 mt-14">
+        <div className="items-center flex flex-col sm:flex-row justify-between px-6 mt-14">
           <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_2_first.jpg" alt="Image 1" />
           <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_2_second.jpg" alt="Image 2" />
           <img className="w-60 h-85 object-cover" src="/row_2_third.jpg" alt="Image 3" />

@@ -14,27 +14,34 @@ const LastSection = () => {
       <p className="text-center font-inter text-5xl mt-14">
         Our Units
       </p>
-      <div className="carousel w-full mt-20">
-        <div id="item1" className="carousel-item w-1/2 flex justify-center">
-          <div className="card card-side bg-base-100 shadow-xl">
-            <figure><img src="studio_icon.png" alt="studio_icon"/></figure>
-            <div className="card-body">
-              <h2 className="card-title">Studio Apartment</h2>
-              <p>Our studio rooms, adorned with minimalist interiors and stylish accents, redefine the art of modern living. In a world cluttered with excess Lembrança stands apart offering a serene sanctuary where less is not just more; its everything.</p>
-            </div>
+
+   
+      <div className='flex flex-col lg:w-2/5 sm:w-4/5 mx-auto mt-2'>
+        <div className="card card-side bg-base-100 shadow-xl">
+          <figure><img src="studio_icon.png" alt="studio_icon" className='lg:mr-20 lg:ml-20 w-14 h-14 hidden sm:block'/></figure>
+          <div className="card-body">
+            <h2 className="lg:card-title font-semibold text-center">Studio Apartment</h2>
+            <p className='text-center lg:text-left'>Our studio rooms, adorned with minimalist interiors and stylish accents, epitomizes modern living. In a world cluttered with excess, Lembrança offers a serene sanctuary where less is not just more; its everything.</p>
           </div>
-        </div> 
-        <div id="item2" className="carousel-item w-1/2 flex justify-center">
-          <div className="card card-side bg-base-100 shadow-xl">
-            <figure><img src="/one_bed_icon.png" alt="one_bed_icon"/></figure>
-            <div className="card-body">
-              <h2 className="card-title">One Bedroom Apartment</h2>
-              <p>
-Step into comfort at our 1-bedroom apartment at Lembrança. Designed for modern living, this space prioritizes your relaxation. With inviting interiors and cozy accents, we provide a comforting sanctuary. Experience an abode where comfort is paramount.</p>
-            </div>
+        </div>         
+
+            
+
+        <div className="card card-side bg-base-100 shadow-xl mt-5">
+          <figure><img src="/one_bed_icon.png" alt="one_bed_icon" className='lg:mr-20 lg:ml-20 w-14 h-14 hidden sm:block'/></figure>
+          <div className="card-body">
+            <h2 className="lg:card-title font-semibold text-center">One Bedroom Apartment</h2>
+            <p className='text-center lg:text-left'>Step into comfort at our 1-bedroom apartment at Lembrança. This space prioritizes your relaxation. With inviting interiors and cozy accents, we provide a comforting sanctuary.</p>
           </div>
-        </div> 
-      </div> 
+        </div>
+      </div>    
+
+
+      <div className='mt-10'>
+        
+      </div>
+      
+
 
       {/* <div className='w-3/4 mt-14 mx-auto'>
       
