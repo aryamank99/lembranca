@@ -22,10 +22,10 @@ const Navbar = () => {
                 Contact Us
               </summary>
               <ul className="p-2 bg-base-100 rounded-t-none">
-                <li><a href="tel:123-456-789">
+                <li><a href="tel:+91-91673-88611">
                   <div className="flex items-center">
                     <img src="/phone_icon.png" width={12} height={12} alt="Phone" className="mr-2"/>
-                    123-456-789
+                    +91-91673-88611
                   </div>  
                 </a></li>
                 <li><a>
