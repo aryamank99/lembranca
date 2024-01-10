@@ -19,8 +19,8 @@ const MiddleSection = () => {
         {/* first row of images */}
         <div className="items-center flex flex-col sm:flex-row justify-between px-6 mt-14">
           <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_1_first.jpg" alt="Image 1" />
-          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_1_second.jpg" alt="Image 2" />
-          <img className="w-60 h-85 object-cover" src="/row_1_third.jpg" alt="Image 3" />
+          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_1_second.jpg" alt="Image 2" />
+          <img className="w-60 h-80 object-cover" src="/row_1_third.jpg" alt="Image 3" />
         </div>
 
         <p className="text-center font-inter text-5xl mt-14">
@@ -29,9 +29,9 @@ const MiddleSection = () => {
 
         {/* second row of images */}
         <div className="items-center flex flex-col sm:flex-row justify-between px-6 mt-14">
-          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_2_first.jpg" alt="Image 1" />
-          <img className="w-60 h-85 mb-8 sm:mb-0" src="/row_2_second.jpg" alt="Image 2" />
-          <img className="w-60 h-85 object-cover" src="/row_2_third.jpg" alt="Image 3" />
+          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_2_first.jpg" alt="Image 1" />
+          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_2_second.jpg" alt="Image 2" />
+          <img className="w-60 h-80" src="/row_2_third.jpg" alt="Image 3" />
         </div>
 
       </div>
