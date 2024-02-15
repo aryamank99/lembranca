@@ -8,7 +8,7 @@ const LastSection = () => {
           Studios and Suites
         </p>
         <div className="mt-10">
-          <img className="w-full h-84 object-cover" src="/section_image.jpg" alt="Bottom Image" />
+          <img className="w-full h-84 object-cover" src="/exterior-section-image.jpg" alt="Bottom Image" />
         </div>
       </div>
       <p className="text-center font-inter text-5xl mt-14">
