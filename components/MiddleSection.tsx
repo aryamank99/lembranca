@@ -3,14 +3,13 @@ import React from 'react'
 const MiddleSection = () => {
   return (
     <div>
-
       <div className='mx-auto w-3/4'>
-        <p className='text-center quote mt-14 text-2xl'>
+        <p className='text-center quote mt-10 text-2xl'>
           Lembrança, a hometel with the comfort of a hotel and warmth of a home.
         </p>
       </div>
 
-      <div className="mx-auto w-3/4 mt-14">
+      <div className="mx-auto w-3/4 mt-10">
       
         <p className="mt-4 text-center">
           Welcome to Lembrança- where every stay is a chapter in the book of memories and every guest is a cherished friend. Nestled amidst serene greenery and landscapes and offering un paralleled hospitality, we invite you to let us be your Lembrança-your souvenir of tranquility, warmth and unforgettable experiences.
@@ -18,9 +17,9 @@ const MiddleSection = () => {
     
         {/* first row of images */}
         <div className="items-center flex flex-col sm:flex-row justify-between px-6 mt-14">
-          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_1_first.jpg" alt="Image 1" />
-          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_1_second.jpg" alt="Image 2" />
-          <img className="w-60 h-80 object-cover" src="/row_1_third.jpg" alt="Image 3" />
+          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_1_1_new.jpg" alt="Image 1" />
+          <img className="w-60 h-80 mb-8 sm:mb-0" src="/row_1_2_new.jpg" alt="Image 2" />
+          <img className="w-60 h-80 object-cover" src="/row_1_3_new.jpg" alt="Image 3" />
         </div>
 
         <p className="text-center font-inter text-5xl mt-14">

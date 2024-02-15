@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link';
 const handleButtonClick = () => {
     window.location.href = 'tel:123-456-789';
   };
