@@ -14,7 +14,17 @@ const Navbar = () => {
         alt="Lembranca Logo"
         />
       </div>
-      <div className="flex-none mr-24">
+      
+      <div className="flex-row">
+        <p className="mr-10">Book Now: </p>
+        <a href="https://www.airbnb.co.in/rooms/1101499957849328499?source_impression_id=p3_1710148144_B0k7FFwZdQsNh%2BcD">
+          <img className="mr-10" width = {40} height = {40} src="/airbnb_logo.svg"></img>
+        </a>
+        <a href="https://www.makemytrip.com/hotels/lembranca_studios_and_suites-details-goa.html">
+          <img width = {100} height = {40} src="/mmt_logo.svg"></img>
+        </a>
+      </div>
+      {/* <div className="flex-none mr-24">
         <ul className="menu menu-horizontal px-1">
           <li>
             <details className="dropdown-menu">
@@ -38,7 +48,7 @@ const Navbar = () => {
             </details>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
 
   )
