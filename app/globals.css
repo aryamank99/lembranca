@@ -184,3 +184,23 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+@media (max-width: 768px) {
+  .book-now {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .logo-airbnb {
+    
+    width: 30px; /* Adjust this value as needed */
+    height: 30px; /* Adjust this value as needed */
+  }
+
+  .logo-mmt {
+    width: 80px; /* Adjust this value as needed */
+    height: 30px; /* Adjust this value as needed */
+  }
+}

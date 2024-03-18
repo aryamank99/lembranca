@@ -3,7 +3,7 @@ import React from 'react'
 const Welcome = () => {
   return (
     <div>
-      <p className="text-center font-inter text-5xl mt-10">
+      <p className="text-center font-inter text-5xl mt-8">
         Welcome to Lembrança
       </p>
 
